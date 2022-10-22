@@ -10,6 +10,7 @@ import {
   Link
 } from "react-router-dom";
 import AllProjects from './AllProjects';
+import SpotifyStats from './SpotifyStats';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
               <NavDropdown title={<span style={{color:'#F2E9E4'}}>Projects</span>}id="basic-nav-dropdown">
                 <NavDropdown.Item ><Link to='/projects/allprojects'>All Projects</Link></NavDropdown.Item>
                 <NavDropdown.Divider/>
-                <NavDropdown.Item href="#action/3.1">A Level Project</NavDropdown.Item>
+                <NavDropdown.Item>A Level Project</NavDropdown.Item>
+                <NavDropdown.Item><Link to='/projects/spotifystats'>Spotify Stats</Link></NavDropdown.Item>
               </NavDropdown>
             </Nav>
             </Navbar.Collapse>
@@ -35,6 +37,7 @@ function App() {
           <Route exact path='/' element={<Dashboard/>} />
           <Route exact path='/projects/allprojects' element={<AllProjects/>} />
           <Route path='/projects/alevelproject'/>
+          <Route path='/projects/spotifystats' element={<SpotifyStats/>} />
         </Routes>
       </Router>  
     </div>

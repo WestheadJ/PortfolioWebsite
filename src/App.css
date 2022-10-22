@@ -1,43 +1,75 @@
 .App {
-  text-align: center;
-  background-color: #F2E9E4;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  text-align:           center;
+  background-color:   #F2E9E4;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color:   #282c34;
+  min-height:           100vh;
+  display:              flex;
+  flex-direction:       column;
+  align-items:          center;
+  justify-content:      center;
+  font-size:            calc(10px + 2vmin);
+  color:              white;
 }
 
 body{
-  background-color: #F2E9E4;
+  background-color:   #F2E9E4;
+}
+
+.spotifyStatsPage{
+  height:               100vh;
+}
+
+.spotifySectionOne{
+  text-align:           left;
+  margin:               25px;
+
+}
+
+.spotifySectionTwo{
+  margin-left:          30%;
+  margin-right:         25px;
+  margin-top:           25px;
+}
+
+.code-snippet{
+  background-color:   rgb(178, 178, 178); 
+  padding:              5px;
+  border-radius:        32px;
+  text-decoration: none;
+}
+
+.code-snippet:hover{
+  background-color: #c1bfbf;
+  padding:              5px;
+  border-radius:        32px;
+  color: #58595b;
+  text-decoration: none;
+}
+
+.code-snippet-link:hover{
+  color: #58595b;
+  background-color: #dedede;
+  text-decoration: none;
+
+}
+
+.code-snippet-link:link{
+  color:#282c34;
+  text-decoration: none;
+
+}
+
+.code-snippet-link:active{
+  color:#282c34;
+  text-decoration: none;
+
+}
+
+.code-snippet-link:visited{
+  color: #282c34;
+  text-decoration: none;
+
 }
