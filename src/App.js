@@ -45,12 +45,17 @@ function App() {
 }
 
 function Dashboard(){
-  return(<div style={{backgroundColor:"#F2E9E4",height:'900px'}}>
-  <section style={{marginTop:"10%", marginLeft:'5%', textAlign:'left'}}>
-    <h1>Hello welcome to my portfolio</h1>
-    <h1>website</h1>
-  </section>
-  <section style={{marginTop:"5%",marginLeft:'5%' , textAlign:'left'}}>
+  return(
+  <div style={{backgroundColor:"#F2E9E4",height:'900px'}}>
+    <div style={{display:'flex',flexDirection:'row',marginTop:"10%"}}>
+      <section style={{ marginLeft:'5%', textAlign:'left'}}>
+      <h1>Hello welcome to my portfolio</h1>
+      <h1>website</h1>
+    </section>
+    <img style={{marginLeft:'20%'}} src="./logo512.png" alt='profile' height="150px" width="150px"  />
+    </div>
+    
+    <section style={{marginTop:"5%",marginLeft:'5%' , textAlign:'left'}}>
     <h4 >My name is <strong style={{color:'#4A4E69'}}>James Westhead</strong> </h4>
   </section>
 </div>)

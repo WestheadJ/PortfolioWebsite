@@ -19,13 +19,13 @@ body{
 }
 
 .spotifyStatsPage{
-  height:               100vh;
+  height:               100%;
 }
 
 .spotifySectionOne{
   text-align:           left;
   margin:               25px;
-
+  margin-right: 10% ;
 }
 
 .spotifySectionTwo{
@@ -34,42 +34,85 @@ body{
   margin-top:           25px;
 }
 
+.spotifySectionThree{
+  text-align:           left;
+  margin:               25px;
+}
+
 .code-snippet{
   background-color:   rgb(178, 178, 178); 
   padding:              5px;
   border-radius:        32px;
-  text-decoration: none;
+  text-decoration:      none;
 }
 
 .code-snippet:hover{
-  background-color: #c1bfbf;
+  background-color:   #c1bfbf;
   padding:              5px;
   border-radius:        32px;
-  color: #58595b;
-  text-decoration: none;
+  color:              #58595b;
+  text-decoration:      none;
 }
 
 .code-snippet-link:hover{
-  color: #58595b;
-  background-color: #dedede;
-  text-decoration: none;
+  color:              #58595b;
+  background-color:   #dedede;
+  text-decoration:      none;
 
 }
 
 .code-snippet-link:link{
-  color:#282c34;
-  text-decoration: none;
+  color:              #282c34;
+  text-decoration:      none;
 
-}
+}                       
 
 .code-snippet-link:active{
-  color:#282c34;
-  text-decoration: none;
+  color:              #282c34;
+  text-decoration:      none;
 
 }
 
 .code-snippet-link:visited{
-  color: #282c34;
-  text-decoration: none;
+  color:              #282c34;
+  text-decoration:      none;
 
+}
+
+a:link{
+  color:              #756c74;
+  text-decoration:      none;
+}
+
+a:hover{
+  color:              #5b585b;
+  text-decoration:      underline;
+}
+
+a:visited{
+  color:              #756c74;
+  text-decoration:      none;
+}
+
+a:visited{
+  color:              #756c74;
+  text-decoration:      none;
+}
+
+.image-gallery{
+  display:              flex;
+  flex-direction:       row;
+  flex-wrap:            wrap;
+  justify-content:      center;
+  align-content:        center;
+  flex-grow:            1;
+}
+
+.image-container{
+  margin:               15px;
+  text-align:           center;
+  justify-content:      center;
+  align-content:        center;
+  width:                500px;
+  height:               auto;
 }
