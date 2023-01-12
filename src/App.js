@@ -57,6 +57,22 @@ function Dashboard(){
     
     <section style={{marginTop:"5%",marginLeft:'5%' , textAlign:'left'}}>
     <h4 >My name is <strong style={{color:'#4A4E69'}}>James Westhead</strong> </h4>
+    <p>I am currently studying BSc Software Engineering, hopefully getting a job as a software developer</p>
+    <h4>Technologies I have worked with:</h4>
+    <ul>
+      <li>Python</li>
+      <ul>
+        <li>Flask</li>        
+      </ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <ul>
+        <li>React.Js</li>
+        <li>React Native</li>
+      </ul>
+      <li>C#</li>
+    </ul>
   </section>
 </div>)
 }

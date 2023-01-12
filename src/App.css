@@ -25,7 +25,8 @@ body{
 .spotifySectionOne{
   text-align:           left;
   margin:               25px;
-  margin-right: 10% ;
+  margin-right:         10% ;
+  margin-left:          20px;
 }
 
 .spotifySectionTwo{
@@ -113,6 +114,15 @@ a:visited{
   text-align:           center;
   justify-content:      center;
   align-content:        center;
-  width:                500px;
+  width:                auto;
   height:               auto;
+}
+
+.projects-container{
+  margin:30px;
+  text-align: left;
+  border:1px rgb(73, 73, 73) solid;
+  padding: 15px;
+  border-radius: 25px;
+  max-width: 80%;
 }
