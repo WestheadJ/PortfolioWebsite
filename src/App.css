@@ -18,24 +18,38 @@ body{
   background-color:   #F2E9E4;
 }
 
+a:link{
+  color:              #5e585d;
+  text-decoration:      none;
+}
+
+a:hover{
+  color:              #242424 !important;
+  text-decoration:      underline;
+}
+
+a:visited{
+  color:              #756c74;
+  text-decoration:      none;
+}
 .spotifyStatsPage{
   height:               100%;
 }
 
-.spotifySectionOne{
+#spotifySectionOne{
   text-align:           left;
   margin:               25px;
   margin-right:         10% ;
   margin-left:          20px;
 }
 
-.spotifySectionTwo{
+#spotifySectionTwo{
   margin-left:          30%;
   margin-right:         25px;
   margin-top:           25px;
 }
 
-.spotifySectionThree{
+#spotifySectionThree{
   text-align:           left;
   margin:               25px;
 }
@@ -80,25 +94,7 @@ body{
 
 }
 
-a:link{
-  color:              #756c74;
-  text-decoration:      none;
-}
 
-a:hover{
-  color:              #5b585b;
-  text-decoration:      underline;
-}
-
-a:visited{
-  color:              #756c74;
-  text-decoration:      none;
-}
-
-a:visited{
-  color:              #756c74;
-  text-decoration:      none;
-}
 
 .image-gallery{
   display:              flex;
@@ -119,10 +115,36 @@ a:visited{
 }
 
 .projects-container{
-  margin:30px;
-  text-align: left;
-  border:1px rgb(73, 73, 73) solid;
-  padding: 15px;
-  border-radius: 25px;
-  max-width: 80%;
+  margin:               30px;
+  text-align:           left;
+  border:               1px rgb(73, 73, 73) solid;
+  padding:              15px;
+  border-radius:        25px;
+  max-width:            80%;
+}
+
+#spotifyStatsImages{
+  display:              flex;
+  flex-wrap:            wrap;
+}
+
+#spotifyStatsImages > div > img{
+  height:               auto;
+  width:                580px;
+  margin:               15px;
+}                       
+
+.github-link{           
+  background-color:   #c1bfbf;
+  padding:              10px;
+  margin:               20px;
+  width:                200px;
+  border:               solid 0.5px rgb(73, 73, 73);
+  border-radius: 12px;
+}
+
+.github-link:hover{
+  padding: 12px;
+  background-color:#dedede;
+  cursor: pointer;
 }
