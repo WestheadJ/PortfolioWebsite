@@ -1,3 +1,9 @@
+body{
+  background-color:   #F2E9E4;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align:           center;
   background-color:   #F2E9E4;
@@ -14,9 +20,7 @@
   color:              white;
 }
 
-body{
-  background-color:   #F2E9E4;
-}
+
 
 a:link{
   color:              #5e585d;
@@ -147,4 +151,44 @@ a:visited{
   padding: 12px;
   background-color:#dedede;
   cursor: pointer;
+}
+
+section{
+  
+}
+
+#NEA-Page{
+  height: 100%;
+  margin: 0;
+}
+
+#NEA-Summary{
+  text-align: left;
+  /* top | right | bottom | left */
+  margin: 6% 40% 3% 30px;
+}
+
+#NEA-Project-Desc{
+  text-align: right;
+  /* top | right | bottom | left */
+  margin: 3% 30px 3% 40%;
+}
+
+#NEA-Project-Learn-Desc{
+  text-align: left;
+  /* top | right | bottom | left */
+  margin: 2.5% 40% 2.5% 30px;
+}
+
+#NEA-Technologies-Used{
+  text-align: center;
+  /* top and bottom | left and right */
+  margin: 3% 30%;
+}
+
+#NEA-Technologies-Used-Desc{
+  text-align: left;
+  /* top | right | bottom | left */
+  margin: 3% 40% 0 30px;
+  padding-bottom: 6%;
 }
