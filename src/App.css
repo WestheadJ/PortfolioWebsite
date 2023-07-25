@@ -165,21 +165,44 @@ section{
 #NEA-Summary{
   text-align: left;
   /* top | right | bottom | left */
-  margin: 6% 40% 3% 30px;
+  margin: 6% 40% 3% 80px;
+}
+
+#NEA-Summary > h4{
+  border-bottom:#5e585d solid 1px;
+
+  padding-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 #NEA-Project-Desc{
-  text-align: right;
   /* top | right | bottom | left */
-  margin: 3% 30px 3% 40%;
+  margin: 1% 0 1% 35%;
+  text-align: left;
+  background-color: #9A8C98;
+  /* top | right | bottom | left */
+padding: 20px 80px 20px 5%;
+}
+
+#NEA-Project-Desc > h4{
+  border-bottom:#5e585d solid 1px;
+
+  padding-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 #NEA-Project-Learn-Desc{
   text-align: left;
   /* top | right | bottom | left */
-  margin: 2.5% 40% 2.5% 30px;
+  margin: 2.5% 40% 2.5% 80px;
+;
 }
+#NEA-Project-Learn-Desc > h4{
+  border-bottom:#5e585d solid 1px;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
 
+}
 #NEA-Technologies-Used{
   text-align: center;
   /* top and bottom | left and right */
@@ -187,8 +210,17 @@ section{
 }
 
 #NEA-Technologies-Used-Desc{
-  text-align: left;
   /* top | right | bottom | left */
-  margin: 3% 40% 0 30px;
-  padding-bottom: 6%;
+  margin: 1% 0 0 35%;
+  text-align: left;
+  background-color: #9A8C98;
+  /* top | right | bottom | left */
+padding: 20px 80px 20px 5%;
+}
+
+#NEA-Technologies-Used-Desc > h4{
+  border-bottom:#5e585d solid 1px;
+
+  padding-bottom: 1%;
+
 }
