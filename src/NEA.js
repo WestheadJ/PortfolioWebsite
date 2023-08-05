@@ -28,6 +28,7 @@ export default function NEA() {
     const [image, setImage] = useState(zero)
     const [caption, setCaption] = useState(Caption0)
     const pics = [zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen]
+    const captions = [Caption0, Caption1, Caption2]
 
     useEffect(() => {
         if (!photoOption) {
