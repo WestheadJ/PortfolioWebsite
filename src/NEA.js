@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+
 import zero from "./images/NEA-A-Level/Admin-Users.png"
 import one from './images/NEA-A-Level/Create-Table-Error-1.png'
 import two from './images/NEA-A-Level/Create-Table.png'
@@ -22,23 +22,6 @@ import seventeen from './images/NEA-A-Level/User-Deleted.png'
 
 
 export default function NEA() {
-
-    const [photoOption, setPhotoOption] = useState(false)
-    const [count, setCount] = useState(0)
-    const [image, setImage] = useState(zero)
-    const [caption, setCaption] = useState(Caption0)
-    const pics = [zero, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen]
-    const captions = [Caption0, Caption1, Caption2]
-
-    useEffect(() => {
-        if (!photoOption) {
-            setInterval(changePhotoForward, 3000)
-        }
-    }, [photoOption])
-
-    function changePhotoForward() {
-
-    }
 
     return (
         <div id='NEA-Page'>
@@ -71,35 +54,31 @@ export default function NEA() {
                 <p>In this project I decided on the approach of using React.js, this way it was a quick and easy set-up and I could use packages to enhance the project. Using Socket.io I could create a socket connection between my server and client for live data display which was vital for live display of orders and tickets. I used react router for easy routing of pages, and security on pages, instead of learning how to use localstorage and cookies, I used something I had some similarity to (localstorage and cookies are on my list of things I want and need to learn). Using express.js which is ran through node.js makes making endpoints and easy to make with safety features in place by default. If looked at, in the project I am using a CORS library that is an extension on express.js. CORS, standing for Cross Origin Resource Sharing, is a HTTP header protocol that controls what resources a device can load. I had to pass off my IP as whitelist IP so my device can connect back and forth to the server.</p>
             </section>
             <section>
-                <div>
-                    {photoOption ? <>true</> :
-                        <div className='carasoul ' style={{ backgroundColor: '#9A8C98', paddingTop: '2%' }} >
-                            <img style={{ width: 'auto', maxHeight: '600px' }} src={image} alt='' />
-                            <p>{caption}</p>
-                        </div>
-
-                    }
+                <div className="row">
+                    <div className="column">
+                        <img src={zero} loading="lazy" alt="Admin dashboard"/>
+                        <img src={two} loading="lazy" alt="Create a table"/>
+                        <img src={four} loading="lazy" alt="Delete a user" />
+                        <img src={six} loading="lazy" alt="Editing a user" />
+                        <img src={eight} loading="lazy" alt="Back of house dashboard" />
+                        <img src={ten} loading="lazy" alt="Back of house current tickets" />
+                        <img src={twelve} loading="lazy" alt="Login wrong password" />
+                        <img src={fourteen} loading="lazy" alt="Login" />
+                        <img src={sixteen} loading="lazy" alt="Table Created" />
+                    </div>
+                    <div className="column">
+                    <img src={one} loading="lazy" alt="Creating a table error" />
+                    <img src={three} loading="lazy" alt="Create a user" />
+                    <img src={five} loading="lazy" alt="Editing a user" />
+                    <img src={seven} loading="lazy" alt="Front of house dashboard"/>
+                    <img src={nine} loading="lazy" alt="Back of house completed tickets" />
+                    <img src={eleven} loading="lazy" alt="Back of house waiting tickets" />
+                    <img src={thirteen} loading="lazy" alt="Login wrong user" />
+                    <img src={fifteen} loading="lazy" alt="Ordering menu" />
+                    <img src={seventeen} loading="lazy" alt="User deleted" />
+                    </div>
                 </div>
             </section>
         </div>
     )
 }
-
-function Caption0() {
-    return (<div>
-        <p>This screen grab shows the admins dashboard when they log in. From here an admin can see all users on the system, they can update user details, delete users and also create new users. An admin can also edit the menu, changing prices and adding and removing items. </p>
-    </div>)
-}
-
-function Caption1() {
-    return (<div>
-        <p>This screen grab shows the modal that shows when you want to create a table, you can chose a table number and how many seats the table can seat.</p>
-    </div>)
-}
-
-function Caption2() {
-    return <div><p>This screen grab shows the error message you get when you try to create a table with a pre-existing table number</p></div>
-}
-
-
-
