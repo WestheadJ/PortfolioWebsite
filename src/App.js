@@ -48,32 +48,62 @@ function App() {
 
 function Dashboard() {
   return (
-    <div style={{ backgroundColor: "#F2E9E4", height: '900px' }}>
+    <div id="main-page">
       <div style={{ display: 'flex', flexDirection: 'row', marginTop: "10%" }}>
         <section style={{ marginLeft: '5%', textAlign: 'left' }}>
-          <h1>Hello welcome to my portfolio</h1>
-          <h1>website</h1>
+          <h1>My name is <strong style={{ color: '#4A4E69' }}>James Westhead</strong></h1>
+          <h1>This is my portfolio.</h1>
         </section>
         <img style={{ marginLeft: '20%' }} src="./logo512.png" alt='profile' height="150px" width="150px" />
       </div>
 
-      <section style={{ marginTop: "5%", marginLeft: '5%', textAlign: 'left' }}>
-        <h4 >My name is <strong style={{ color: '#4A4E69' }}>James Westhead</strong> </h4>
-        <p>I am currently studying BSc Software Engineering, hopefully getting a job as a software developer</p>
+      <section style={{ marginTop: "5%", marginLeft: '5%', textAlign: 'left',paddingBottom:'2%' }}>
+        <h4 > Wee bit about me </h4>
+        <p className="p">I am currently in my second year at Sheffield Hallam and I'm studying software engineering. I am currently seeking a placement for my third year to enhance my programming skills, learn and expand my knowledge of technologies and get experience in a professional environment.</p>
+        <p className="p">I have a passion for learning (mostly things that excite me) like learning new frameworks and new ways of solving problems. Outside of coding my major interests are going to the gym and music. </p>
+        <p className="p">Back to topic I have a steady (some would say strong) understanding of technologies such as Python, JavaScript, Node.js and recently gaining strength in C#. However I have briefly worked with others listed below!</p>
         <h4>Technologies I have worked with:</h4>
         <ul>
-          <li>Python</li>
+          <li>Python:</li>
           <ul>
             <li>Flask</li>
+            <li>Simple solution using sockets</li>
+            <li>Worked with a speech recognition library</li>
+            <li>Worked with a little bit of cryptography</li>
           </ul>
           <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
+          <li>CSS (really bad at design):</li>
           <ul>
-            <li>React.Js</li>
+              <li>React Bootstrap (CSS Framework)</li>
+            </ul>
+          <li>JavaScript:</li>
+          <ul>
+            <li>React.js:</li>
+            <ul>
+              <li>React Bootstrap (CSS Framework)</li>
+              <li>React Router</li>
+            </ul>
             <li>React Native</li>
+            <li>Node.js:</li>
+            <ul>
+              <li>Express</li>
+              <li>Sockets</li>
+              <li>Worked with a little bit of cryptography</li>
+
+            </ul>
+
           </ul>
           <li>C#</li>
+          <li>Small small bit of Bash</li>
+          <li>Samba</li>
+          <li>Netlify</li>
+          <li>Used heroku for a bit</li>
+          <li>Databases</li>
+          <ul>
+            <li>MySQL - also used MySQL Bench as a database tool</li>
+            <li>sqlite - also used a sqlite database tool like MySQL Bench</li>
+            <li>Used MSSQL for a a week at a placement.</li>
+          </ul>
         </ul>
       </section>
     </div>)

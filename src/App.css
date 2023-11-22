@@ -1,18 +1,27 @@
 body{
+  height:               100vh;
+  margin:               0;
+  padding:              0;
+}
+
+#root{
+  height:               100vh;
+  margin:               0;
+  padding:              0;
   background-color:   #F2E9E4;
-  margin: 0;
-  padding: 0;
 }
 
 h4 {
-  border-bottom:#5e585d solid 1px;
-  padding-bottom: 1%;
-  margin-bottom: 1%;
+  border-bottom:      #5e585d solid 1px;
+  padding-bottom:       1%;
+  margin-bottom:        1%;
 }
 
 .App {
   text-align:           center;
-  background-color:   #F2E9E4;
+  height:               100vh;
+  margin:               0;
+  padding:              0;
 }
 
 .App-header {
@@ -103,38 +112,49 @@ a:visited{
 .projects-container{
   margin:               30px;
   text-align:           left;
-  border:               1px rgb(73, 73, 73) solid;
   padding:              15px;
-  border-radius:        25px;
   max-width:            80%;
 }
 
-/* Spotify Stats CSS */
+/* App.js */
+
+.p{
+  max-width:            100ch;
+  width:                100%;
+}
+
+#main-page{
+  height:               100%;
+  background-color:   #F2E9E4;
+  margin:               2%;
+}
+
+/* SpotifyStats.js */
 
 .spotifyStatsPage{
   height:               100%;
 }
 
 #spotifySummary{
-  text-align: left;
-  /* top | right | bottom | left */
-  margin: 6% 40% 3% 80px;
+  text-align:           left;
+                        /* top | right | bottom | left */
+  margin:               6% 40% 3% 80px;
 }
 
 
 #spotifyDescription{
-  /* top | right | bottom | left */
-  margin: 1% 0 1% 35%;
-  text-align: left;
-  background-color: #9A8C98;
-  /* top | right | bottom | left */
-padding: 20px 80px 20px 5%;
+                        /* top | right | bottom | left */
+  margin:               1% 0 1% 35%;
+  text-align:           left;
+  background-color:   #9A8C98;
+                        /* top | right | bottom | left */
+  padding:              20px 80px 20px 5%;
 }
 
 #spotifyLearning{
-  text-align: left;
-  /* top | right | bottom | left */
-  margin: 2.5% 40% 2.5% 80px;
+  text-align:           left;
+                        /* top | right | bottom | left */
+  margin:               2.5% 40% 2.5% 80px;
 }
 
 
@@ -156,95 +176,91 @@ padding: 20px 80px 20px 5%;
   margin:               20px;
   width:                200px;
   border:               solid 0.5px rgb(73, 73, 73);
-  border-radius: 12px;
+  border-radius:        12px;
 }
 
 .github-link:hover{
-  padding: 12px;
-  background-color:#dedede;
-  cursor: pointer;
+  padding:              12px;
+  background-color:   #dedede;
+  cursor:               pointer;
 }
 
-/* NEA CSS */
+/* NEA.js */
 
 
 #NEA-Page{
-  height: 100%;
-  margin: 0;
+  height:               100%;
+  margin:               0;
 }
 
 #NEA-Summary{
-  text-align: left;
-  /* top | right | bottom | left */
-  margin: 6% 40% 3% 80px;
+  text-align:           left;
+                        /* top | right | bottom | left */
+  margin:               6% 40% 3% 80px;
 }
 
 
 
 #NEA-Project-Desc{
-  /* top | right | bottom | left */
-  margin: 1% 0 1% 35%;
-  text-align: left;
-  background-color: #9A8C98;
-  /* top | right | bottom | left */
-padding: 20px 80px 20px 5%;
+                        /* top | right | bottom | left */
+  margin:               1% 0 1% 35%;
+  text-align:           left;
+  background-color:   #9A8C98;
+                        /* top | right | bottom | left */
+  padding:              20px 80px 20px 5%;
 }
 
 
 
 #NEA-Project-Learn-Desc{
-  text-align: left;
-  /* top | right | bottom | left */
-  margin: 2.5% 40% 2.5% 80px;
-;
+  text-align:           left;
+                        /* top | right | bottom | left */
+  margin:               2.5% 40% 2.5% 80px;
 }
 
 #NEA-Technologies-Used{
-  text-align: center;
-  /* top and bottom | left and right */
-  margin: 3% 30%;
+  text-align:           center;
+                        /* top and bottom | left and right */
+  margin:               3% 30%;
 }
 
 #NEA-Technologies-Used-Desc{
-  /* top | right | bottom | left */
-  margin: 1% 0 0 35%;
-  text-align: left;
-  background-color: #9A8C98;
-  /* top | right | bottom | left */
-padding: 20px 80px 20px 5%;
+                        /* top | right | bottom | left */
+  margin:               1% 0 0 35%;
+  text-align:           left;
+  background-color:   #9A8C98;
+                        /* top | right | bottom | left */
+  padding:              20px 80px 20px 5%;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+  display:              flex;
+  flex-wrap:            wrap;
+  padding:              0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
-  flex: 50%;
-  max-width: 80%;
-  padding: 0 4px;
+  flex:                 0%;
+  max-width:            80%;
+  padding:              0 4px;
 }
 
 .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+  margin-top:           8px;
+  vertical-align:       middle;
+  width:                100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {
-    flex: 50%;
-    max-width: 90%;
+    flex:               50%;
+    max-width:          90%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
-    flex: 100%;
-    max-width: 100%;
+    flex:               100%;
+    max-width:          100%;
   }
 }
