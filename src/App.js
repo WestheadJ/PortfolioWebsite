@@ -37,7 +37,6 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Dashboard />} />
           <Route exact path='/projects/allprojects' element={<AllProjects />} />
-          <Route path='/projects/alevelproject' />
           <Route path='/projects/spotifystats' element={<SpotifyStats />} />
           <Route path='/projects/nea' element={<NEA />} />
         </Routes>

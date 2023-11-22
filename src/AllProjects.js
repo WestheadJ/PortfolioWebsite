@@ -15,7 +15,7 @@ export default function AllProjects() {
           </Link>
         </div>
         <div className='projects-container'>
-          <Link style={{textDecoration:'none'}} to='/projects/alevelproject'>
+          <Link style={{textDecoration:'none'}} to='/projects/nea'>
             <h2>A Level NEA</h2>
             <p>Summary: A food POS system for a front of house and back of house for my A Level Computer Science NEA</p>
           </Link>
