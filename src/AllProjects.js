@@ -10,8 +10,8 @@ export default function AllProjects() {
     <div style={{backgroundColor:'#F2E9E4'}}>
         <h1>My Projects</h1>
         <hr/>
-        <ProjectsCard title="Spotify Latest Project" link='/projects/spotifystats' description={spotifyStats}/>
-        <ProjectsCard title="A Level NEA - Food POS" link='/projects/nea' description={nea}/>
+        <ProjectsCard title="Spotify Latest Project" link='spotifystats' description={spotifyStats}/>
+        <ProjectsCard title="A Level NEA - Food POS" link='nea' description={nea}/>
         
     </div>
   )
