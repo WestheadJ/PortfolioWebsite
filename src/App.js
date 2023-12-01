@@ -30,6 +30,8 @@ function App() {
                   <NavDropdown.Divider />
                   <NavDropdown.Item><Link to='/projects/nea'>A Level Project</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to='/projects/spotifystats'>Spotify Stats</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to='/projects/folderwizard'>Folder Wizard</Link></NavDropdown.Item>
+
                 </NavDropdown>
               </Nav>
             </Navbar.Collapse>
