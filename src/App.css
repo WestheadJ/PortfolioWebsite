@@ -116,6 +116,21 @@ a:visited{
   max-width:            80%;
 }
 
+.left-container{
+  text-align:           left;
+                        /* top | right | bottom | left */
+  margin:               6% 40% 3% 80px;
+}
+
+.right-container{
+                     /* top | right | bottom | left */
+  margin:               1% 0 1% 35%;
+  text-align:           left;
+  background-color:   #9A8C98;
+                        /* top | right | bottom | left */
+  padding:              20px 80px 20px 5%;
+}
+
 /* App.js */
 
 .p{
@@ -193,45 +208,17 @@ a:visited{
   margin:               0;
 }
 
-#NEA-Summary{
-  text-align:           left;
-                        /* top | right | bottom | left */
-  margin:               6% 40% 3% 80px;
-}
-
-
-
-#NEA-Project-Desc{
-                        /* top | right | bottom | left */
-  margin:               1% 0 1% 35%;
-  text-align:           left;
-  background-color:   #9A8C98;
-                        /* top | right | bottom | left */
-  padding:              20px 80px 20px 5%;
-}
-
-
-
-#NEA-Project-Learn-Desc{
-  text-align:           left;
-                        /* top | right | bottom | left */
-  margin:               2.5% 40% 2.5% 80px;
-}
-
 #NEA-Technologies-Used{
   text-align:           center;
                         /* top and bottom | left and right */
   margin:               3% 30%;
 }
 
-#NEA-Technologies-Used-Desc{
-                        /* top | right | bottom | left */
-  margin:               1% 0 0 35%;
-  text-align:           left;
-  background-color:   #9A8C98;
-                        /* top | right | bottom | left */
-  padding:              20px 80px 20px 5%;
-}
+
+/* FolderWizard.js */
+
+
+/* Grid CSS */
 
 .row {
   display:              flex;

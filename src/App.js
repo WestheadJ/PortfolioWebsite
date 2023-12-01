@@ -9,9 +9,10 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import AllProjects from './AllProjects';
-import SpotifyStats from './SpotifyStats';
-import NEA from './NEA';
+import AllProjects from './Pages/AllProjects';
+import SpotifyStats from './Pages/SpotifyStats';
+import NEA from './Pages/NEA';
+import FolderWizard from './Pages/FolderWizard';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route exact path='/projects/allprojects' element={<AllProjects />} />
           <Route path='/projects/spotifystats' element={<SpotifyStats />} />
           <Route path='/projects/nea' element={<NEA />} />
+          <Route path='/projects/folderwizard' element={<FolderWizard/>}/> 
         </Routes>
       </Router>
     </div>
