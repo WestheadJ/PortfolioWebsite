@@ -150,30 +150,6 @@ a:visited{
   height:               100%;
 }
 
-#spotifySummary{
-  text-align:           left;
-                        /* top | right | bottom | left */
-  margin:               6% 40% 3% 80px;
-}
-
-
-#spotifyDescription{
-                        /* top | right | bottom | left */
-  margin:               1% 0 1% 35%;
-  text-align:           left;
-  background-color:   #9A8C98;
-                        /* top | right | bottom | left */
-  padding:              20px 80px 20px 5%;
-}
-
-#spotifyLearning{
-  text-align:           left;
-                        /* top | right | bottom | left */
-  margin:               2.5% 40% 2.5% 80px;
-}
-
-
-
 #spotifyStatsImages{
   display:              flex;
   flex-wrap:            wrap;
