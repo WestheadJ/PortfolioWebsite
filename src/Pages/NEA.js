@@ -39,7 +39,7 @@ export default function NEA() {
                 <p>Because this was part of my A Level, I had things on the curriculum that I was learning alongside the project, some things helped and some things were unrelated. For example things like programming tasks, learning different methodologies for development and different diagrams for planning out the development of a piece of software, helped with development and planning of my project. I learnt more about how servers and clients connect to each other and how they send and receive information. I learnt about security access of pages, for example like an admin page and the likes. I also learnt about testing and test cases. As well I also learnt how to criticise my work through the analysis section, questioning what I did well and what I did wrong and what I could've done better. This will help in all areas of my life, not just in a professional work environment.</p>
             </section>
 
-            <section id='NEA-Technologies-Used'>
+            <section className='technologies'>
                 <h4>Technologies - List</h4>
                 <ul>
                     <li><a style={{ color: '#5e585d' }} href='https://reactjs.org'>React.js</a></li>

@@ -23,7 +23,9 @@ export default function FolderWizard() {
             <p>So what did I learn? I learnt that not planning how to write your programs can really undermine your work and pace, cause errors and make really, <b>REALLY</b> messy code!!! If I was to re-do this project I would plan it out, after doing research on all the methods on how to do everything. It would've saved me time fixing bugs and refactoring code (and trying to look for where the code was).</p>
             <p>I want to make changes and add to this so for a version 2! I want to add these features, such as custom formats the user wants to sort, I want to make the code more readable and modular and change it to a more OOP format.</p>
         </section>
-        
+        <section className='technologies'>
+
+        </section>
     </div>
   )
 }

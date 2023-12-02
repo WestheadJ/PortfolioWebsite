@@ -131,6 +131,18 @@ a:visited{
   padding:              20px 80px 20px 5%;
 }
 
+.technologies{
+  text-align:           center;
+                        /* top | right | bottom | left */
+  margin:               3% auto 30% auto;
+  width:                80%;
+
+}
+
+.technologies > a{
+  color:              #5E585D;
+}
+
 /* App.js */
 
 .p{
@@ -181,7 +193,8 @@ a:visited{
 
 #NEA-Page{
   height:               100%;
-  margin:               0;
+                        /* top and bottom | left and right */
+  margin:               3% 0;
 }
 
 #NEA-Technologies-Used{
