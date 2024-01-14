@@ -42,7 +42,7 @@ function App() {
           <Route exact path='/projects/allprojects' element={<AllProjects />} />
           <Route path='/projects/spotifystats' element={<SpotifyStats />} />
           <Route path='/projects/nea' element={<NEA />} />
-          <Route path='/projects/folderwizard' element={<FolderWizard/>}/> 
+          <Route path='/projects/folderwizard' element={<FolderWizard />} />
         </Routes>
       </Router>
     </div>
@@ -60,7 +60,7 @@ function Dashboard() {
         <img style={{ marginLeft: '20%' }} src="./logo512.png" alt='profile' height="150px" width="150px" />
       </div>
 
-      <section style={{ marginTop: "5%", marginLeft: '5%', textAlign: 'left',paddingBottom:'2%' }}>
+      <section style={{ marginTop: "5%", marginLeft: '5%', textAlign: 'left', paddingBottom: '2%' }}>
         <h4 > Wee bit about me </h4>
         <p className="p">I am currently in my second year at Sheffield Hallam and I'm studying software engineering. I am currently seeking a placement for my third year to enhance my programming skills, learn and expand my knowledge of technologies and get experience in a professional environment.</p>
         <p className="p">I have a passion for learning (mostly things that excite me) like learning new frameworks and new ways of solving problems. Outside of coding my major interests are going to the gym and music. </p>
@@ -77,8 +77,8 @@ function Dashboard() {
           <li>HTML</li>
           <li>CSS (really bad at design):</li>
           <ul>
-              <li>React Bootstrap (CSS Framework)</li>
-            </ul>
+            <li>React Bootstrap (CSS Framework)</li>
+          </ul>
           <li>JavaScript:</li>
           <ul>
             <li>React.js:</li>
@@ -92,9 +92,8 @@ function Dashboard() {
               <li>Express</li>
               <li>Sockets</li>
               <li>Worked with a little bit of cryptography</li>
-
             </ul>
-
+            <li>SvelteKit</li>
           </ul>
           <li>C#</li>
           <li>Small small bit of Bash</li>
